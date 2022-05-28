@@ -73,7 +73,7 @@ const Auth = () => {
             <Avatar className={classes.avatar}>
                 <LockOutlinedIcon />
             </Avatar>
-            <Typography variant='h5'>{isSignup ? "Sign Up": "Sign In"}</Typography>
+            <Typography component="h1" variant='h5'>{isSignup ? "Sign Up": "Sign In"}</Typography>
             <form className={classes.form} onSubmit={handleSubmit}>
                 <Grid container spacing={2}>
                     {
